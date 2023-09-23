@@ -91,29 +91,6 @@ function showKidMovies(data) {
     })
 }
 
-//  function addFavrt(){
-
-//     const favData = `
-//     <div class="fav_list_container">
-//     <div class="fav_list">
-//         <img src="Static/rnbdj.jpg" alt="poster">
-//         <div class="fav_movie">
-//             <h5 class="movie_name"> </h5>
-//             <p class="genre"> Romantic / Musical </p>
-//             <p> 2008 <span> 9.5 </span></p>
-//         </div>
-//         <button type="button" onclick="delMovie()" class="del_movie"> <i class="fa-solid fa-trash"></i> </button>
-//     </div>
-
-// </div>`
-
-//     fav.insertAdjacentHTML('beforeend', favData);
-
-// }
-
-// movie_list.addEventListener('click', addFavrt);
-
-
 // Delete favrt movies from list
 function delMovie(e) {
     if (e.target.classList.contains('del_movie')) {
