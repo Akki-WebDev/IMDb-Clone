@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root {
-    --primary-bg-color: ;
-    --secondary-bg-color: ;
-    --primary-text-color: ;
-    --secondary-text-color: ;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -25,6 +18,7 @@ body {
     height: auto;
 }
 
+/* Header Section */
 header {
     color: rgb(184, 179, 179);
     display: flex;
@@ -63,6 +57,7 @@ header {
     margin-left: 5.5rem;
 }
 
+/* Navigation List */
 .nav ul {
     display: flex;
 }
@@ -83,6 +78,7 @@ header {
     font-weight: bolder;
 }
 
+/* User section on right */
 .user {
     cursor: pointer;
     color: #DE3163;
@@ -130,7 +126,7 @@ header {
     transform: scale(1.1);
 }
 
-
+/* Middle section Heropage and search option */
 #heropage_wrapper {
     display: flex;
     flex-direction: column;
@@ -229,6 +225,7 @@ header {
     box-shadow: 0px 0px 50px #F1C40F;
 }
 
+/* Footer section */
 .footer {
     position: absolute;
     margin-top: 1rem;
@@ -252,6 +249,7 @@ header {
     margin-left: 10rem;
 }
 
+/* Extra Class just to add Color */
 .clr-ylw {
     color: #F7DC6F;
     font-weight: 900;
@@ -339,6 +337,7 @@ header {
     margin: 5px;
 }
 
+/* Middle section right side Kids Section */
 #fav_wrapper {
     width: 24%;
     display: flex;
