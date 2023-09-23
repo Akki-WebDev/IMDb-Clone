@@ -1,6 +1,6 @@
 IMDb Clone Developed by Akbar using Vanilla JavaScript, HTML, CSS.
 
-Check-Out my app visit this Link :-
+Check-Out my app visit this Link :- https://akki-webdev.github.io/IMDb-Clone/
 
 This is a repository for IMDb Clone Developed using Vanilla JavaScript, HTML, CSS.
 
